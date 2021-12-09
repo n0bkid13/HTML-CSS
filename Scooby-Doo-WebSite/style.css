@@ -1,0 +1,134 @@
+p{
+    font-family: Verdana, Arial, Serif;
+    font-size: 11px;
+}
+
+#intro{
+    height: 634px;
+}
+
+#container{
+    position: relative;
+    left: 380px;
+    background: url("containerbackground.gif");
+    width: 670px;
+    height: 1600px;
+}
+
+#pageHeader{
+    background: url("top.gif");
+    height: 332px;
+    width: 600px;
+    position: relative;
+    left: 30px;
+}
+
+#pageHeader h1{
+    font-size: 20px;
+    position: relative;
+    left: 340px;
+    top: 20px;
+}
+
+#quickSummary{
+    background: url("summary.gif") no-repeat;
+    height: 162px;
+    position: relative;
+    left: 435px;
+
+}
+
+#quickSummary p{
+    width: 180px;
+}
+
+.p1,
+ul{
+    position: absolute;
+    line-height: 18px;
+    top: 50px;
+    left: 5px;
+    text-align: left;
+    font-size: 11px;
+}
+
+#preamble h3,
+#explanation h3,
+#participation h3{
+    display: none;
+}
+
+#preamble,
+#explanation,
+#participation{
+    position: relative;
+    left: 37px;
+    height: 320px;
+}
+
+#preamble p,
+#explanation p,
+#participation p{
+    width: 370px;
+}
+
+#preamble{
+    background: url("title1.gif") no-repeat;
+    bottom: 162px;
+}
+
+#explanation{
+    background: url("title2.gif") no-repeat;
+}
+
+#participation{
+    background: url("title3.gif") no-repeat;
+    top: 140px;
+}
+
+.select{
+    display: none;
+}
+
+.resources{
+    display: none;
+}
+
+#lselect{
+    background: url("designs.gif") no-repeat;
+    height: 162px;
+    position: relative;
+    left: 435px;
+    bottom: 750px;
+}
+
+#lresources{
+    background: url("resources.gif") no-repeat;
+    height: 162px;
+    position: relative;
+    left: 435px;
+    bottom: 730px;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+
+#lselect ul li{
+    list-style: url("paperfolded.gif");
+    color: black;
+    font-weight: 200;
+}
+
+#lresources ul li{
+    list-style: url("paper.gif");
+}
+
+#participation ul{
+    position: relative;
+    top: 80px;
+}
+
+
+
