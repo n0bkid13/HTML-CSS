@@ -1,0 +1,85 @@
+html{
+    background: #d2cfcf;
+}
+body{
+    width: 800px;
+    height: 600px;
+    background: white;
+    position: relative;
+    left: 360px;
+    border-radius: 10px;
+}
+.upper{
+    background: #44b344;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 10px 10px 0 0;
+}
+
+.lower{
+    background: #44b344;
+    height: 40px;
+    border-radius: 0 0 10px 10px;
+}
+
+.lower p{
+    text-align: center;
+    color: white;
+}
+
+.list-elements li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 80px;
+    font-family: Arial, sans-serif;
+    position: relative;
+    bottom: 127px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+img{
+    position: relative;
+    width: 80px;
+    height: 120px;
+    bottom: 30px;
+    left: 10px;
+}
+
+.list-elements:nth-child(1){
+    background: url("leaf.png") no-repeat;
+}
+
+#title{
+    color: #92cd00;
+    font-size: 26px;
+}
+
+#content,
+#content ol li,
+#content dl{
+    position: relative;
+    top: 100px;
+    left: 20px;
+    color: #192402;
+    font-weight: bold;
+    width: 350px;
+}
+
+#picture-middle{
+    position: relative;
+    left: 400px;
+    height: 300px;
+    width: 400px;
+}
+
+#title{
+    position: relative;
+    top: 100px;
+    left: 20px;
+    text-align: center;
+    width: 350px;
+}
